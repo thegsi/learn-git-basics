@@ -3,13 +3,15 @@
 ##### git checkout -b <new branch name>
 
 ##### Cloning your remote directory
-		git clone <remote directory>
+        git clone <remote directory>
 
 ##### Checking that status of your local repository
-		git status
+        git status
+##### Pulling down all branches in a remote repo, not just the default branch
+        git fetch --all
 
 ##### Creating a new branch for you to work on
-		git branch <new branch name>
+        git branch <new branch name>
 
 ##### Create and move to new branch
 		git checkout -b <new branch name>
@@ -20,7 +22,7 @@ git commit -m 'adding new command in the cheatsheet'
 		git branch -a
 
 ##### Moving onto a branch
-		git checkout <branch name>
+        git checkout <branch name>
 
 ##### Deleting a branch
 		git branch -d <branch name>
@@ -41,6 +43,7 @@ git merge master
 
 #### Push changes to remote repo on github
 git push origin update-cheatsheet
+
 
 #### Creates a branch, and moves you onto it at the same time
  		git checkout -b <new branch name>
